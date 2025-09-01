@@ -36,7 +36,7 @@ void loop()
   Serial.println(valor_sensor);
   Serial.println(temperatura);
   
-  lcd.print("Temperatura:  ");
+  lcd.print("Temperatura:    ");
   lcd.setCursor(1, 1);
   lcd.print(temperatura);
   lcd.println(" Celsius  ");
